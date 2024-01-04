@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Landing Page - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Style for Navbar -->
+    <!-- <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      nav {
+        background-color: #2980b9; /* Blue color */
+        overflow: hidden;
+      }
+
+      nav a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: #2980b9; /* Darker blue color on hover */
+      }
+    </style> -->
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <!-- <nav>
+      <a href="index2.html">Your Opportunities</a>
+      <a href="index.html">Create An Opportunity</a>
+    </nav> -->
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-6">
+            <div class="text-center text-white">
+              <!-- Page heading-->
+              <h1 class="mb-5">Sign Up for Volunteer Opportunities:</h1>
+              <!-- Signup form-->
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- * * SB Forms Contact Form * *-->
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- This form is pre-integrated with SB Forms.-->
+              <!-- To make this form functional, sign up at-->
+              <!-- https://startbootstrap.com/solution/contact-forms-->
+              <!-- to get an API token!-->
+              <form
+                class="form-subscribe"
+                id="contactForm"
+                data-sb-form-api-token="API_TOKEN"
+              >
+                <!-- Email address input-->
+                <div class="row">
+                  <div class="col">
+                    <input
+                      class="form-control form-control-lg"
+                      id="emailAddress"
+                      type="email"
+                      placeholder="Email Address"
+                      data-sb-validations="required,email"
+                    />
+                    <div
+                      class="invalid-feedback text-white"
+                      data-sb-feedback="emailAddress:required"
+                    >
+                      Email Address is required.
+                    </div>
+                    <div
+                      class="invalid-feedback text-white"
+                      data-sb-feedback="emailAddress:email"
+                    >
+                      Email Address Email is not valid.
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button
+                      class="btn btn-primary btn-lg"
+                      id="submitButtonTop"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+                <!-- Submit success message-->
+                <!---->
+                <!-- This is what your users will see when the form-->
+                <!-- has successfully submitted-->
+                <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                    <p>To activate this form, sign up at</p>
+                    <a
+                      class="text-white"
+                      href="https://startbootstrap.com/solution/contact-forms"
+                      >https://startbootstrap.com/solution/contact-forms</a
+                    >
+                  </div>
+                </div>
+                <!-- Submit error message-->
+                <!---->
+                <!-- This is what your users will see when there is-->
+                <!-- an error submitting the form-->
+                <div class="d-none" id="submitErrorMessage">
+                  <div class="text-center text-danger mb-3">
+                    Error sending message!
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Icons Grid-->
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div
+                class="features-icons-icon d-flex justify-content-center align-items-center"
+              >
+                <i
+                  class="fa-solid fa-suitcase-medical"
+                  style="color: #005eff"
+                ></i>
+              </div>
+              <h3>Humanitarian Aid Distribution:</h3>
+              <p class="lead mb-0">
+                Assist in the distribution of essential supplies to affected
+                communities.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div
+                class="features-icons-icon d-flex justify-content-center align-items-center"
+              >
+                <i
+                  class="fa-solid fa-person-shelter"
+                  style="color: #005eff"
+                ></i>
+              </div>
+              <h3>Emergency Shelter Support:</h3>
+              <p class="lead mb-0">
+                Contribute to setting up and maintaining emergency shelters for
+                displaced individuals and families.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div
+                class="features-icons-icon d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-solid fa-comments" style="color: #005eff"></i>
+              </div>
+              <h3>Community Outreach and Support:</h3>
+              <p class="lead mb-0">
+                Engage in community outreach efforts to offer emotional support
+                and companionship.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Showcases-->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div
+            class="col-lg-6 order-lg-2 text-white showcase-img"
+            style="background-image: url('assets/img/communityflag.jpeg')"
+          ></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>About HelpingHands Israel</h2>
+            <p class="lead mb-0">
+              HelpingHands Israel is a dedicated group of individuals committed
+              to making a positive impact during challenging times. Our mission
+              is to extend a helping hand to those affected by the current
+              situation in Israel, fostering unity, resilience, and hope within
+              our community. Our Mission:
+            </p>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div
+            class="col-lg-6 text-white showcase-img"
+            style="background-image: url('assets/img/helpinghands.webp')"
+          ></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Our Mission:</h2>
+            <p class="lead mb-0">
+              In the face of adversity, we believe in the power of collective
+              action to bring about positive change. Our mission is to provide
+              support, relief, and solidarity to those directly impacted by the
+              ongoing situation. Together, we can make a difference and build a
+              stronger, more connected community.
+            </p>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div
+            class="col-lg-6 order-lg-2 text-white showcase-img"
+            style="background-image: url('assets/img/volunteermission.jpeg')"
+          ></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Create Your Own Initiative:</h2>
+            <p class="lead mb-0">
+              We understand that every effort counts, and we encourage you to
+              create your own volunteer initiative. Whether it's a fundraising
+              campaign, awareness drive, or a specific project, your unique
+              contribution can make a meaningful impact.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials-->
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5">What people are saying...</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="assets/img/tamir.jpg"
+                alt="..."
+              />
+              <h5>Tamir D.</h5>
+              <p class="font-weight-light mb-0">
+                "HelpingHands Israel unites us in impactful community service.
+                Grateful for connection."!"
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="assets/img/david.jpg"
+                alt="..."
+              />
+              <h5>David S.</h5>
+              <p class="font-weight-light mb-0">
+                "Transformative support. Proud to volunteer with HelpingHands
+                Israel. Direct impact."
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="assets/img/ilan.jpg"
+                alt="..."
+              />
+              <h5>Ilan W.</h5>
+              <p class="font-weight-light mb-0">
+                "Eye-opening, heartwarming experiences with HelpingHands Israel.
+                Meaningful impact, accessible volunteering."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action-->
+    <section class="call-to-action text-white text-center" id="signup">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-6">
+            <h2 class="mb-4">Join us in building a stronger Israel.</h2>
+            <h3 class="mb-4">Create Your Own Initiative:</h3>
+            <!-- Signup form-->
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- * * SB Forms Contact Form * *-->
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- This form is pre-integrated with SB Forms.-->
+            <!-- To make this form functional, sign up at-->
+            <!-- https://startbootstrap.com/solution/contact-forms-->
+            <!-- to get an API token!-->
+            <form
+              class="form-subscribe"
+              id="contactFormFooter"
+              data-sb-form-api-token="API_TOKEN"
+            >
+              <!-- Email address input-->
+              <div class="row">
+                <div class="col">
+                  <input
+                    class="form-control form-control-lg"
+                    id="emailAddressBelow"
+                    type="email"
+                    placeholder="Email Address"
+                    data-sb-validations="required,email"
+                  />
+                  <div
+                    class="invalid-feedback text-white"
+                    data-sb-feedback="emailAddressBelow:required"
+                  >
+                    Email Address is required.
+                  </div>
+                  <div
+                    class="invalid-feedback text-white"
+                    data-sb-feedback="emailAddressBelow:email"
+                  >
+                    Email Address Email is not valid.
+                  </div>
+                </div>
+                <!-- <div class="col-auto">
+                  <button
+                    class="btn btn-primary btn-lg disabled"
+                    id="submitButton"
+                    type="submit"
+                  >
+                    Get Started
+                  </button>
+                </div> -->
+              </div>
+              <!-- Submit success message-->
+              <!---->
+              <!-- This is what your users will see when the form-->
+              <!-- has successfully submitted-->
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                  <div class="fw-bolder">Form submission successful!</div>
+                  <p>To activate this form, sign up at</p>
+                  <a
+                    class="text-white"
+                    href="https://startbootstrap.com/solution/contact-forms"
+                    >https://startbootstrap.com/solution/contact-forms</a
+                  >
+                </div>
+              </div>
+              <!-- Submit error message-->
+              <!---->
+              <!-- This is what your users will see when there is-->
+              <!-- an error submitting the form-->
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">
+                  Error sending message!
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Script for Redirect JS -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Function to handle form submission
+        function handleFormSubmission(form, redirectUrl) {
+          // Redirect to the specified URL
+          window.location.href = redirectUrl;
+        }
+
+        // Enable the submit button when the email is valid
+        function enableSubmitButton(form) {
+          const emailInput = form.querySelector("input[type=email]");
+          const submitButton = form.querySelector("button[type=submit]");
+
+          if (emailInput.checkValidity()) {
+            submitButton.removeAttribute("disabled");
+          } else {
+            submitButton.setAttribute("disabled", "true");
+          }
+        }
+
+        // Handle form submission for the top button
+        document
+          .getElementById("contactForm")
+          .addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Perform your email validation here (add your validation logic)
+
+            // If the email is valid, proceed with form submission
+            if (this.checkValidity()) {
+              handleFormSubmission(this, "index2.html");
+            }
+          });
+
+        // Handle form submission for the bottom button
+        document
+          .getElementById("contactFormFooter")
+          .addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Perform your email validation here (add your validation logic)
+
+            // If the email is valid, proceed with form submission
+            if (this.checkValidity()) {
+              handleFormSubmission(this, "index.html");
+            }
+          });
+
+        // Enable the submit button when the email input changes
+        document
+          .getElementById("emailAddress")
+          .addEventListener("input", function () {
+            enableSubmitButton(document.getElementById("contactForm"));
+          });
+
+        // Enable the submit button when the email input changes
+        document
+          .getElementById("emailAddressBelow")
+          .addEventListener("input", function () {
+            enableSubmitButton(document.getElementById("contactFormFooter"));
+          });
+      });
+    </script>
+
+    <!-- FontAwesome JS -->
+    <script
+      src="https://kit.fontawesome.com/a63ece473a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
